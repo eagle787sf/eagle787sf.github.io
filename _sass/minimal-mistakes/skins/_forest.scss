@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Forest skin
+   Deep green accent, light page, dark text. Tuned for contrast.
+   ========================================================================== */
+
+$background-color: #f4f7f4 !default;
+$text-color: #1a2e24 !default;
+$muted-text-color: #3e5148 !default;
+$primary-color: #14633d !default;
+$border-color: #d3e2d8 !default;
+$footer-background-color: #0f3d2e !default;
+$code-background-color: #eef4f0 !default;
+$success-color: #14633d !default;
+$link-color: #0f5132 !default;
+$link-color-hover: #0a3a24 !default;
+$link-color-visited: #145c38 !default;
+$masthead-link-color: #f4faf6 !default;
+$masthead-link-color-hover: #ffffff !default;
+$navicon-link-color-hover: #e5f3eb !default;
+$header-font-family: Georgia, "Palatino Linotype", Palatino, "Times New Roman", serif !default;
+$doc-font-size: 18 !default;
+
+.page__footer {
+  color: #f4faf6 !important;
+}
+
+.page__footer a,
+.page__footer .social-icons i,
+.page__footer .social-icons .svg-inline--fa {
+  color: #f4faf6;
+}

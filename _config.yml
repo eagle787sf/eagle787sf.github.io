@@ -1,0 +1,79 @@
+# Samuel Flores — GitHub Pages user site.
+# Published from the repository root: https://eagle787sf.github.io
+title: "Samuel F. Flores"
+masthead_title: "Samuel Flores"
+subtitle: "Security engineer · CISSP"
+description: >-
+  Samuel Flores is a cybersecurity engineer and CISSP in Chesapeake, Virginia.
+  Detection engineering, vulnerability operations, and the NIST CSF 2.0 program
+  at City of Chesapeake DIT.
+url: "https://eagle787sf.github.io"
+baseurl: ""
+repository: "eagle787sf/eagle787sf.github.io"
+locale: en-US
+minimal_mistakes_skin: "forest"
+search: false
+atom_feed:
+  hide: true
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+author:
+  name: "Samuel Flores"
+  avatar: "/assets/photo.jpg"
+  bio: "Cybersecurity engineer and CISSP in Chesapeake, Virginia."
+  location: "Chesapeake, VA"
+  links:
+    - label: "Resume"
+      icon: "fas fa-file-pdf"
+      url: "/assets/resume.pdf"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/samuelflores"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/eagle787sf"
+    - label: "floresline.dev"
+      icon: "fas fa-link"
+      url: "https://floresline.dev/"
+
+copyright: "Samuel F. Flores"
+
+footer:
+  links:
+    - label: "Resume"
+      icon: "fas fa-file-pdf"
+      url: "/assets/resume.pdf"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/samuelflores"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/eagle787sf"
+    - label: "floresline.dev"
+      icon: "fas fa-link"
+      url: "https://floresline.dev/"
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .sass-cache
+  - .jekyll-cache
+  - node_modules
